@@ -1,0 +1,12 @@
+.a-hfull{
+    height: 100%;
+}
+.a-wfull{
+    width: 100%;
+}
+.a-wviewport{
+    width: 100vw;
+}
+.a-hviewport{
+    height: 100vh;
+}

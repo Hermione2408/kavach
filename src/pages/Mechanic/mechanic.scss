@@ -1,0 +1,50 @@
+.mechanics-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .mechanic-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 45%;
+  }
+  
+  .mechanic-name {
+    color: #3f3f3f;
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  .mechanic-address {
+    color: #666666;
+    font-size: 14px;
+    margin: 0 0 5px;
+  }
+  
+  .mechanic-phone {
+    color: #666666;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .mechanic-map {
+    height: 200px;
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  .mechanic-map iframe {
+    border: none;
+    height: 100%;
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .mechanic-card {
+      width: 100%;
+    }
+  }

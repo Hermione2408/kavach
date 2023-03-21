@@ -1,0 +1,44 @@
+
+  
+  .report {
+    text-align: center;
+    color: white;
+    background-image: url("../../assets/imgs/main.jpg");
+    width: 100%;
+ height:100vh;
+ display: flex;
+ flex-direction: column;
+  }
+  
+  h1 {
+padding-top: 50px;  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+  }
+  
+  .card {
+    background-color: #393A3A;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+    background-color: #444;
+  }
+  
+  h3 {
+    margin: 0;
+  }

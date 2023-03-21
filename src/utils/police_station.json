@@ -1,0 +1,65 @@
+[
+  {
+    "type": "police",
+    "name": "Central Police Station",
+    "contactNumber": "555-1234",
+    "latitude": 37.7749,
+    "longitude": -122.4194
+  },
+  {
+    "type": "police",
+    "name": "South Police Station",
+    "contactNumber": "555-5678",
+    "latitude": 37.7249,
+    "longitude": -122.4544
+  },
+  {
+    "type": "police",
+    "name": "North Police Station",
+    "contactNumber": "555-9101",
+    "latitude": 37.8069,
+    "longitude": -122.4305
+  },
+  {
+    "type": "police",
+    "name": "West Police Station",
+    "contactNumber": "555-2222",
+    "latitude": 37.7845,
+    "longitude": -122.4296
+  },
+  {
+    "type": "police",
+    "name": "East Police Station",
+    "contactNumber": "555-3333",
+    "latitude": 37.7743,
+    "longitude": -122.4279
+  },
+  {
+    "type": "police",
+    "name": "Southwest Police Station",
+    "contactNumber": "555-4444",
+    "latitude": 37.7342,
+    "longitude": -122.4878
+  },
+  {
+    "type": "police",
+    "name": "Southeast Police Station",
+    "contactNumber": "555-5555",
+    "latitude": 37.7324,
+    "longitude": -122.4084
+  },
+  {
+    "type": "police",
+    "name": "Northwest Police Station",
+    "contactNumber": "555-6666",
+    "latitude": 37.7827,
+    "longitude": -122.4609
+  },
+  {
+    "type": "police",
+    "name": "Northeast Police Station",
+    "contactNumber": "555-7777",
+    "latitude": 37.8007,
+    "longitude": -122.4216
+  }
+]

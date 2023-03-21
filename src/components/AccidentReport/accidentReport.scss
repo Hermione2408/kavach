@@ -1,0 +1,108 @@
+/* General styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+/* Background image */
+.modal {
+  background-image: url("../../assets/imgs/background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  backdrop-filter: blur(5px);
+}
+
+.accident-modal-content {
+  padding: 20px;
+  border-radius: 5px;
+  padding: 24px;
+  height: fit-content;
+  width: fit-content;
+  background-color: transparent;
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.2); // Make sure this color has an opacity of less than 1
+  backdrop-filter: blur(8px); // This be the blur
+  width: 100%;
+}
+
+/* Header styles */
+.a-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.close {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+}
+
+.close:hover {
+  color: #ff0000;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 16px;
+  color: white;
+}
+
+/* Button styles */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Card styles */
+.Card {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 16px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Additional margin class */
+.a-mt16 {
+  margin-top: 16px;
+}
+
+.a-mt24 {
+  margin-top: 24px;
+}

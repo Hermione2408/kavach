@@ -1,0 +1,58 @@
+[
+  {
+    "type": "hospital",
+    "name": "General Hospital",
+    "contactNumber": "555-2345",
+    "latitude": 26.9133,
+    "longitude": 75.7873
+  },
+  {
+    "type": "hospital",
+    "name": "St. Mary's Hospital",
+    "contactNumber": "555-6789",
+    "latitude": 26.8972,
+    "longitude": 75.8467
+  },
+  {
+    "type": "hospital",
+    "name": "City Hospital",
+    "contactNumber": "555-1010",
+    "latitude": 26.9222,
+    "longitude": 75.8005
+  },
+  {
+    "type": "hospital",
+    "name": "West Hospital",
+    "contactNumber": "555-1111",
+    "latitude": 26.9166,
+    "longitude": 75.8011
+  },
+  {
+    "type": "hospital",
+    "name": "North Hospital",
+    "contactNumber": "555-2222",
+    "latitude": 26.9142,
+    "longitude": 75.7976
+  },
+  {
+    "type": "hospital",
+    "name": "East Hospital",
+    "contactNumber": "555-3333",
+    "latitude": 26.9113,
+    "longitude": 75.7961
+  },
+  {
+    "type": "hospital",
+    "name": "South Hospital",
+    "contactNumber": "555-4444",
+    "latitude": 26.9046,
+    "longitude": 75.8073
+  },
+  {
+    "type": "hospital",
+    "name": "Central Hospital",
+    "contactNumber": "555-5555",
+    "latitude": 26.9044,
+    "longitude": 75.8092
+  }
+]

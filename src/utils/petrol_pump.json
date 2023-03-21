@@ -1,0 +1,49 @@
+{
+    "petrolPumps": [
+      {
+        "name": "Indian Oil Petrol Pump",
+        "address": "Sodala, Jaipur",
+        "distance": "1.5 km",
+        "price": "₹98.50/litre",
+        "location": {
+          "latitude": 26.9253,
+          "longitude": 75.8061
+        },
+        "image": "https://www.vhv.rs/dpng/d/41-414707_petrol-pump-images-png-transparent-png.png"
+      },
+      {
+        "name": "BP Petrol Pump",
+        "address": "Vaishali Nagar, Jaipur",
+        "distance": "3.2 km",
+        "price": "₹99.00/litre",
+        "location": {
+          "latitude": 26.9316,
+          "longitude": 75.8067
+        },
+        "image": "https://example.com/petrolpump2.jpg"
+      },
+      {
+        "name": "HP Petrol Pump",
+        "address": "C-Scheme, Jaipur",
+        "distance": "5.1 km",
+        "price": "₹97.80/litre",
+        "location": {
+          "latitude": 26.8985,
+          "longitude": 75.8055
+        },
+        "image": "https://example.com/petrolpump3.jpg"
+      },
+      {
+        "name": "Shell Petrol Pump",
+        "address": "Malviya Nagar, Jaipur",
+        "distance": "8.3 km",
+        "price": "₹99.50/litre",
+        "location": {
+          "latitude": 26.8321,
+          "longitude": 75.8475
+        },
+        "image": "https://example.com/petrolpump4.jpg"
+      }
+    ]
+  }
+  

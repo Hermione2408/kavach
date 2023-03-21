@@ -1,0 +1,50 @@
+{
+    "mechanics": [
+      {
+        "name": "Car Care Centre",
+        "address": "38, Shiv Colony, Gopalpura Bypass Rd, Jaipur, Rajasthan 302018",
+        "phone": "+91 93516 51776",
+        "location": {
+          "latitude": 26.881324,
+          "longitude": 75.777998
+        }
+      },
+      {
+        "name": "Hi-Tech Car Care",
+        "address": "A-1, Near Pawan Hospital, Surya Nagar, Gopalpura Bypass Rd, Jaipur, Rajasthan 302015",
+        "phone": "+91 98294 47773",
+        "location": {
+          "latitude": 26.880375,
+          "longitude": 75.785174
+        }
+      },
+      {
+        "name": "Bhatia Motors",
+        "address": "G-5, Ramesh Marg, C Scheme, Ashok Nagar, Jaipur, Rajasthan 302001",
+        "phone": "+91 98291 20426",
+        "location": {
+          "latitude": 26.898311,
+          "longitude": 75.790165
+        }
+      },
+      {
+        "name": "Shree Shyam Car Care",
+        "address": "Shop No.7, Bharat Nagar, Opposite CNG Pump, Amer Road, Jaipur, Rajasthan 302002",
+        "phone": "+91 94611 43825",
+        "location": {
+          "latitude": 26.933258,
+          "longitude": 75.854007
+        }
+      },
+      {
+        "name": "Kiran Motor Works",
+        "address": "22, Kailash Puri, Nr. Jain Mandir, Opposite Sodhani Sweets, Hawa Sadak, Jaipur, Rajasthan 302006",
+        "phone": "+91 141 221 3494",
+        "location": {
+          "latitude": 26.922567,
+          "longitude": 75.784032
+        }
+      }
+    ]
+  }
+  

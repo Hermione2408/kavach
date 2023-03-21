@@ -1,0 +1,13 @@
+.globalmaps {
+    display: flex;
+    width: 100%;
+    .globalmapsContainer {
+        .widgets{
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+    }
+      flex: 6;
+    }
+  }
+  
