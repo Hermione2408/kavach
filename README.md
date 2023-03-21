@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Kavach
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Citizen Portal/ App for Mitigating Road Safety Issues!
 
-## Available Scripts
+Objectives:-
+ - A person can **raise an issue or report any violation** through the app.
+ - In case of an **accident**, the app shall **send message to police, ambulance, and nearby hospital.**
+ - In case of any **violations, police and other stakeholders may take an action** on to the issue raised by the app.
+ - The solution should **help to prevent accidents** as well.
 
-In the project directory, you can run:
+Features of Kavach:-
 
-### `npm start`
+For User:
+ - Allows users to **report accidents easily and without hassle.**
+ - Offers a **bounty program** for reporting voilations of law.
+ - Assistance to users by **identifying nearby facilities such as hospitals, police stations, and tow trucks.**
+ - Integrated with **emergency services** for quick and efficient response **in case of an accident**.
+ - **Revolutionize the way we approach road safety** and make a significant impact on **saving lives.**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+For Admin:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Using Rollbased Access Control (RABC) Mechanism
+ ```mermaid
+graph TD;
+    RABC-->ADMIN;
+    RABC-->POLICE;
+    RABC-->HOSPITAL;
+    ADMIN-->NAGAR_NIGAM;
+    ADMIN-->FIRE_BRIGADE;
+    ADMIN-->TOW_TRUCK;
+```  
 
-### `npm test`
+Usage of Kavach:-
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For User:
 
-### `npm run build`
+- As soon as you open the application the following screen will show up and if there is an emergency immediately report to police and hospital and you can even navigate your near by hospital and police station.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ ![My Image](01.jpg) ![My Image](02.jpg)
+ 
+- The below navigation screen will show up and indicate us about potholes in the area
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ ![My Image](03.jpg)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- If the user want report an issue about Bad Road Condition & Violation of Law the Report option is available and the user need to fill survey form for the same.The appropriate Bounty Points will be provided after properly examine the report by higher authority.
 
-### `npm run eject`
+ ![My Image](04.jpg) ![My Image](05.jpg) ![My Image](06.jpg)
+ 
+- In case of user want assitance about nearby Mechanics,Petrol Pump and Chauffer the Assitance option is given
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ ![My Image](07.jpg) ![My Image](08.jpg) ![My Image](09.jpg)
+ 
+- The profile option contains the details of the application user and bounty points awarded to them for their contribution.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ ![My Image](10.jpg)
+ 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+For Admin:
 
-## Learn More
+- The Admin panel is based on Rollbased Access Control Mechanism (RBAC) which will show the issue list to the admin and admin will transfer the issue to the respective authority. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ ![My Image](admin.jpg)
