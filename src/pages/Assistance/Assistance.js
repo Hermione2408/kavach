@@ -1,5 +1,6 @@
 import React from 'react';
 import './Assistance.css';
+import { useNavigate } from 'react-router-dom';
 const Card = ({ title, handleClick }) => {
   return (
     <div className="card" onClick={handleClick}>
@@ -9,13 +10,14 @@ const Card = ({ title, handleClick }) => {
 };
 
 const Assistance = () => {
+  const navigate = useNavigate()
   const handleCardClick = (title) => {
     if (title === 'Petrol Pump') {
-      window.location.href = "/petrolpumps";
+      navigate("/petrolpumps") ;
     } else if (title === 'Chauffer') {
-      window.location.href = "/chauffer";
+      navigate("/chauffer") ;
     }else if (title === 'Mechanic') {
-        window.location.href = "/mechanic";
+      navigate("/mechanic") ;
       }
   };
 
