@@ -4,9 +4,10 @@ import { useLocation } from "react-router-dom";
 import "./BottomBar.scss";
 export default function BottomBar() {
   const location = useLocation()
-  const path = location.pathname.slice(1)
-  const displayBottomBar = (['report','reportpage','profilepage','survey','assistance','mechanic','petrolpumps','chauffer'].indexOf(path) >-1) || (path === '/')
-  return (
+  const path = location.pathname
+  const updatedPath = location.pathname.slice(1);
+ const displayBottomBar = (['report','reportpage','profilepage','survey','assistance','mechanic','petrolpumps','chauffer'].indexOf(updatedPath) >-1) || (path === '/') 
+return (
     <>
     {displayBottomBar && <div className="bottom-bar">
       <NavLink to="/" activeClassName="active">Navigate</NavLink>
@@ -17,4 +18,5 @@ export default function BottomBar() {
     </div>}
     </>
   );
+  
 }

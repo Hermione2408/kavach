@@ -6,6 +6,7 @@ import RedMapMarker from "../../assets/imgs/map-marker-svg.svg";
 import BlueMapMarker from "../../assets/imgs/blue-marker-map.png";
 import { userReportedPotholes, confirmedPotholes } from "../../utils/potholes";
 
+
 const mapContainerStyle = {
   width: "100%",
   height: "calc(100vh - 70px)",
